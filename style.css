@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Amatic SC', cursive;
+
 }
 
 header{
     width: 100vw;
-    background-color: black;
+    background-color: white;
     height: 10vh;
     display: flex;
 
@@ -15,7 +16,7 @@ header{
 }
 
 header h1{
-    color:white;
+   
 }
 
 .menu{
@@ -30,12 +31,15 @@ header h1{
 
 .menu li a {
     text-decoration: none;
-    color:white;
+  font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-weight: bold;
+    color:black;
 }
 
 main{
+    background: pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,4 +142,45 @@ box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
 footer{
     width: 100vw;
     height: 20vh;
+}
+
+@media screen and
+
+(max-width: 940px){
+
+    .profile{
+        margin-top:4% ;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        gap:10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        
+        .desc_profile{
+            width: 80%;
+           display: flex;
+           justify-content: center;
+        }
+
+    .products{
+        width: 100vw;
+        margin-top: 4%;
+       display: flex;
+       flex-direction: column;
+       gap:10px;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+
+    .img-profile{
+        width: 40%;
+        border-radius: 40%;
+        -webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73); 
+        box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
+        }
+
 }
