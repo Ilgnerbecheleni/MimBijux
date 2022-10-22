@@ -85,8 +85,57 @@ font-size: 1.5rem;
 .img-profile{
 width: 20%;
 border-radius: 40%;
+-webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73); 
+box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
 }
 
 .products{
+    width: 100vw;
     margin-top: 4%;
+   display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.product-card{
+    background: #ddd;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:2%;
+    align-items: center;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73); 
+box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
+}
+
+.card-des{
+    text-align: center;
+}
+
+.confira{
+    width: 80px;
+    background:black;
+    text-align: center;
+    color: wheat;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    font-weight: 900;
+
+}
+
+
+.img-card{
+    width: 40%;
+    border-radius: 50%;
+    }
+
+footer{
+    width: 100vw;
+    height: 20vh;
 }
