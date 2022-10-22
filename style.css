@@ -148,6 +148,28 @@ footer{
 
 (max-width: 940px){
 
+    header{
+        width: 100vw;
+        background-color: white;
+        height: 10vh;
+        display: flex;
+    flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .description h1{
+        font-size: 1.5em;
+    
+    }
+
+    h2{
+        font-size: 1rem; 
+    }
+    
+    p{
+    font-size: 1rem;
+    }
     .profile{
         margin-top:4% ;
         width: 100vw;
@@ -182,5 +204,33 @@ footer{
         -webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73); 
         box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
         }
+
+        
+.product-card{
+    background: #ddd;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:2%;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73); 
+box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.73);
+}
+
+.confira{
+    width: 40px;
+    background:black;
+    text-align: center;
+    color: wheat;
+    padding: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-weight: 900;
+
+}
 
 }
